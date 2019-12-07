@@ -40,7 +40,7 @@ class Borracha extends materialEscolar {
 
 }
 
-const borracha = new Borracha('Rosa', 'Quadrada', 'Pequena', 'Borracha', 'Látex')
+const borracha = new Borracha('Rosa', 'Quadrado', 'Pequeno', 'Borracha', 'Látex')
 console.log(borracha)
 
 borracha.cor = 'lilás'
