@@ -19,7 +19,7 @@ class Bottom {
     }
 
     usar(local) {
-        return local
+        return "Esse bottom é para usar na " + local
     }
 
 }
