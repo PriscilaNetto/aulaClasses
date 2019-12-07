@@ -5,13 +5,13 @@ class Bottom {
         this._tamanho = tamanho
     }
 
+    get cor() {
+        return this._cor
+    }
+
     get formato() {
 
         return this._formato
-    }
-    get cor() {
-
-        return this._cor
     }
 
     set cor(novaCor) {
@@ -23,6 +23,8 @@ class Bottom {
     }
 
 }
+
+
 
 const bottomDaGabi = new Bottom('Azul', 'Redondo', 'Pequeno')
 console.log(bottomDaGabi)
